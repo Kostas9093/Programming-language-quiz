@@ -27,6 +27,7 @@ function loadQuiz(quizType) {
     
     // Hide the quiz title when a quiz is loaded
        quizTitle.style.display = 'none';
+      
 
     // Show score and timer when a quiz is chosen
     showScoreAndTimer();
@@ -498,6 +499,7 @@ Once finished, simply enter your name and submit to conclude the exercise. Enjoy
     <button id="one" class="btn" type="submit">Submit</button>
 </form>
 
+
 <!-- Question 2 - Which HTML tag is used for internal stylesheets? -->
 <form id="myForm2" onsubmit="check2(); return false" autocomplete="off">
     <h2>Task 2</h2>
@@ -733,39 +735,42 @@ Once finished, simply enter your name and submit to conclude the exercise. Enjoy
  // JavaScript quiz///
 function generateJavaScriptQuiz() {
     return `
-        <h1>JavaScript Quiz</h1>
-            <p>Welcome to our JavaScript Quiz, a key feature of our programming curriculum designed to assess your knowledge and skills in JavaScript.<br><br> There's no pressure, as this quiz isn't graded. It's an excellent opportunity to practice and demonstrate your grasp of JavaScript basics, including variables, functions, loops, and ES6 features, as well as your ability to manipulate the DOM and handle events.<br><br> Submit your answers for each question to see immediate feedback on how you're doing. <br><br>When you're through, simply enter your name and submit to complete the exercise. Enjoy the challenge!</p>
+    <h1>JavaScript Quiz</h1>
+    <p>Welcome to our JavaScript Quiz, a key feature of our programming curriculum designed to assess your knowledge and skills in JavaScript.<br><br> There's no pressure, as this quiz isn't graded. It's an excellent opportunity to practice and demonstrate your grasp of JavaScript basics, including variables, functions, loops, and ES6 features, as well as your ability to manipulate the DOM and handle events.<br><br> Submit your answers for each question to see immediate feedback on how you're doing. <br><br>When you're through, simply enter your name and submit to complete the exercise. Enjoy the challenge!</p>
 
 
 
-            <!-- Question 1 - JavaScript in HTML -->
-            <form id="myForm1" onsubmit="checkj1(); return false" autocomplete="off">
-                <h2>Task 1</h2>
-                <p>Inside which HTML element do we put the JavaScript?</p>
-                <input type="text" id="qj1"><br>
-                <button id="one" class="btn" type="submit">Submit</button>
-            </form>
+<!-- Question 1 - JavaScript in HTML -->
 
-            <!-- Question 2 - Correct place to insert JavaScript -->
-            <form id="myForm2" onsubmit="checkj2(); return false" autocomplete="off">
-                <h2>Task 2</h2>
-                <p>Where is the correct place to insert a JavaScript?</p>
-                <ul>
-                    <li>a) The &lt;body&gt; section</li>
-                    <li>b) The &lt;head&gt; section</li>
-                    <li>c) Both a and b are correct</li>
-                </ul>
-                <input type="text" id="qj2"><br>
-                <button id="two" class="btn" type="submit">Submit</button>
-            </form>
+<form id="myForm1" onsubmit="checkj1(); return false" autocomplete="off">
+<h2>Task 1</h2>
+<p>Inside which HTML element do we put the JavaScript?</p>
+<input type="text" id="qj1"><br>
+<button id="one" class="btn" type="submit">Submit</button>
+    </form>
 
-            <!-- Question 3 - External JavaScript file -->
-            <form id="myForm3" onsubmit="checkj3(); return false" autocomplete="off">
-                <h2>Task 3</h2>
-                <p>How do you link to an external JavaScript file?</p>
-                <input type="text" id="qj3"><br>
-                <button id="three" class="btn" type="submit">Submit</button>
-            </form>
+<!-- Question 2 - Correct place to insert JavaScript -->
+
+<form id="myForm2" onsubmit="checkj2(); return false" autocomplete="off">
+<h2>Task 2</h2>
+<p>Where is the correct place to insert a JavaScript?</p>
+<ul>
+<li>a) The &lt;body&gt; section</li>
+<li>b) The &lt;head&gt; section</li>
+<li>c) Both a and b are correct</li>
+ </ul>
+ <input type="text" id="qj2"><br>
+ <button id="two" class="btn" type="submit">Submit</button>
+ </form>
+
+ <!-- Question 3 - External JavaScript file -->
+
+<form id="myForm3" onsubmit="checkj3(); return false" autocomplete="off">
+<h2>Task 3</h2>
+<p>How do you link to an external JavaScript file?</p>
+<input type="text" id="qj3"><br>
+<button id="three" class="btn" type="submit">Submit</button>
+ </form>
 
             <!-- Question 4 - Display an alert -->
             <form id="myForm4" onsubmit="checkj4(); return false" autocomplete="off">

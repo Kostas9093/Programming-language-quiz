@@ -1,7 +1,8 @@
 /* Universal Box Sizing */
 * {
+    margin:0;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 0px;
   }
   
   /* Body Background */
@@ -19,7 +20,6 @@
     min-height: 100vh;
     text-align: center;
     padding: 20px; /* Adjust or remove padding based on your design */
-    margin-top:-350px;
   }
   
   /* Typography */
@@ -128,14 +128,14 @@
   /* This ensures form contents are centered and responsive */
   
   /* Centralized Form Setup */
-  form#submitForm {
+  /* form#submitForm {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 300px; /* Adjusts form width */
-    margin: 0 auto; /* Centers the form horizontally */
-  }
+    max-width: 300px; 
+    margin: 0 auto; 
+  } */
   
   /* Input Container */
   .inputs-container {
@@ -191,8 +191,8 @@
     img {
    
     justify-content:center;
-    -webkit-transition: background 3s;
-    transition: background 3s;
+    -webkit-transition: background 2s;
+    transition: background 2s;
     background-color:rgb(6, 26, 90);
   } 
    
