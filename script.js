@@ -63,6 +63,10 @@ function loadQuiz(quizType) {
     }
 
     quizContainer.innerHTML = quizHtml;
+   
+    // Reset score and timer
+    score = 0;
+    timerInSeconds = 0;
 
      // Start the timer
      startTimer();
