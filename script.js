@@ -4,8 +4,6 @@ VanillaTilt.init(document.querySelectorAll("img"), {
     glare: true
     });
     
-
-
 // Function to show score and timer
 function showScoreAndTimer() {
     const scoreElement = document.getElementById('floating-score');
@@ -25,13 +23,21 @@ const quizContainer = document.getElementById('quiz-container');
 quizContainer.style.display = 'none';
 quizContainer.style.display = 'none';
 
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const backButton = document.getElementById('back');
+    backButton.addEventListener('click', resetToQuizLoadScreen);
+});
+
+
 function loadQuiz(quizType) {
     const quizContainer = document.getElementById('quiz-container');
     const quizTitle = document.getElementById('quizTitle');
     quizContainer.style.display = 'flex';
     quizContainer.innerHTML = '';
-   
-    
+    const back = document.getElementById('back');
+    back.style.display = 'flex';
+
     
     // Hide the quiz title when a quiz is loaded
        quizTitle.style.display = 'none';
@@ -87,6 +93,27 @@ function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
     return `${minutes < 10 ? '0' : ''}${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+}
+
+function resetToQuizLoadScreen() {
+    const quizContainer = document.getElementById('quiz-container');
+    const quizTitle = document.getElementById('quizTitle');
+    const back = document.getElementById('back');
+    const scoreDisplay = document.getElementById('floating-score');
+    const timerDisplay = document.getElementById('timer-display');
+
+    // Hide the quiz container and back button
+    quizContainer.style.display = 'none';
+    back.style.display = 'none';
+    hideScoreAndTimer()
+    // Show the quiz title
+    quizTitle.style.display = 'block';
+
+    // Reset score and timer
+    score = 0;
+    timerInSeconds = 0;
+    timerStarted = false;
+    clearInterval(timerInterval);
 }
 
      // Html Quiz // 

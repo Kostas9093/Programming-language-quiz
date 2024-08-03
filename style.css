@@ -82,8 +82,8 @@ a {
 }
 
 .quiz-options img {
-    width: 30%;
-    max-width: 100px;
+    width: 35%;
+    max-width: auto;
     cursor: pointer;
     transition: background 2s;
     background-color: rgb(33, 71, 112);
@@ -156,7 +156,7 @@ form , .form1{
 }
 
 /* Floating Score and Timer */
-#floating-score, #timer-display {
+#floating-score, #timer-display, #back {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
     top: 2%;
@@ -173,7 +173,10 @@ form , .form1{
     right: 6%;
     left: auto;
 }
-
+#back{
+    right: 45%;
+    left:auto;
+}
   /* Image Transitions */
   img {
     -webkit-transition: background 2s;
@@ -181,6 +184,12 @@ form , .form1{
     background-color:rgb(6, 26, 90);
   
   } 
+
+  img {
+    width:auto;
+    height:auto;
+    border-radius: 20%;
+  }
    
   img:hover {
     background-color: #000000;
