@@ -59,7 +59,7 @@ function loadQuiz(quizType) {
     quizContainer.innerHTML = quizHtml;
 
      // Start the timer
-    //  startTimer();
+     startTimer();
 }
 
 

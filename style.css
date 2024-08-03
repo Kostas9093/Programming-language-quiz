@@ -87,6 +87,7 @@ a {
     cursor: pointer;
     transition: background 2s;
     background-color: rgb(33, 71, 112);
+    
 }
 
 .quiz-options img:hover {
@@ -111,6 +112,8 @@ a {
     color: rgb(0, 0, 0);
     font-weight: bold;
   }
+
+
 
 /* Input Styles */
 input[type="text"], input[name="Name"], input[name="Score"], input[name="Time"], input[type="submit"] {
@@ -176,6 +179,7 @@ form , .form1{
     -webkit-transition: background 2s;
     transition: background 2s;
     background-color:rgb(6, 26, 90);
+  
   } 
    
   img:hover {
