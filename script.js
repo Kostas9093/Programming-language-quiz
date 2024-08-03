@@ -100,7 +100,7 @@ function check1() {
         document.getElementById('one').disabled = true;
         gameOver();
     } else {
-        alert('Incorrect.');
+        alert('Incorrect. Remember the answer includes 3 words');
     }
 }
 
@@ -113,7 +113,7 @@ function check2() {
         document.getElementById('two').disabled = true;
         gameOver();
     } else {
-        alert('Incorrect.');
+        alert('Incorrect.Did you forgot the tags?<>');
     }
 }
 
@@ -139,7 +139,7 @@ function check4() {
         document.getElementById('four').disabled = true;
         gameOver();
     } else {
-        alert('Incorrect.');
+        alert('Incorrect.Did you forgot {}?');
     }
 }
 
@@ -494,11 +494,8 @@ function generateHtmlCssQuiz() {
     <h1>HTML & CSS Quiz</h1>
     <p>Welcome to our HTML & CSS Quiz, a fundamental part of our web development curriculum designed to assess your knowledge and skills in HTML and CSS.
 
-This quiz comes without the stress of grades. It's an outstanding chance to practice and show your understanding of HTML elements, attributes, structure, and semantic markup, alongside CSS selectors, properties, layouts, and responsive design principles. Additionally, it will test your ability to craft visually appealing web pages and implement design best practices.
+This quiz comes without the stress of grades. It's an outstanding chance to practice and show your understanding of HTML elements, attributes, structure, and semantic markup, alongside CSS selectors, properties, layouts, and responsive design principles. Additionally, it will test your ability to craft visually appealing web pages and implement design best practices.<br><br> Enjoy the challenge!
 
-Submit your answers for each question to get instant feedback on your progress.
-
-Once finished, simply enter your name and submit to conclude the exercise. Enjoy the challenge!</p>
     <!-- Question 1 - What does HTML stand for? -->
 
     <form id="myForm1" onsubmit="check1(); return false" autocomplete="off">
@@ -746,7 +743,7 @@ Once finished, simply enter your name and submit to conclude the exercise. Enjoy
 function generateJavaScriptQuiz() {
     return `
     <h1>JavaScript Quiz</h1>
-    <p>Welcome to our JavaScript Quiz, a key feature of our programming curriculum designed to assess your knowledge and skills in JavaScript.<br><br> There's no pressure, as this quiz isn't graded. It's an excellent opportunity to practice and demonstrate your grasp of JavaScript basics, including variables, functions, loops, and ES6 features, as well as your ability to manipulate the DOM and handle events.<br><br> Submit your answers for each question to see immediate feedback on how you're doing. <br><br>When you're through, simply enter your name and submit to complete the exercise. Enjoy the challenge!</p>
+    <p>Welcome to our JavaScript Quiz, a key feature of our programming curriculum designed to assess your knowledge and skills in JavaScript.<br><br> There's no pressure, as this quiz isn't graded. It's an excellent opportunity to practice and demonstrate your grasp of JavaScript basics, including variables, functions, loops, and ES6 features, as well as your ability to manipulate the DOM and handle events.<br><br> Enjoy the challenge!</p>
 
 
 
@@ -1401,10 +1398,9 @@ function checkj30() {
 function generatePythonQuiz(){
     return `
        <h1>Python Exercises</h1>
-        <p>Welcome to Python Exercises, this is the part of our Python week where we test what you've learned so far.<br><br>
+        <p>Welcome to Python Exercises.<br><br>
         Try not to panic though. This isn't a marked piece of work, its just helping you to test your skills with not only Python and its syntax, but with industry specific names.<br><br>
         Enter your answer to each task and then press submit to get your score!<br><br>
-        At the end of the quiz you just enter your name, and press submit and then you're done!<br><br>
         Have fun!</p>
 
     <!-- =====================QUESTION 1================================================== -->
