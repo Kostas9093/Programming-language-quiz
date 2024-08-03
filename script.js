@@ -3,6 +3,8 @@ VanillaTilt.init(document.querySelectorAll("img"), {
     speed: 400,
     glare: true
     });
+    
+
 
 // Function to show score and timer
 function showScoreAndTimer() {
@@ -19,11 +21,17 @@ function hideScoreAndTimer() {
     scoreElement.style.display = 'none';
     timerElement.style.display = 'none';
 }
+const quizContainer = document.getElementById('quiz-container');
+quizContainer.style.display = 'none';
+quizContainer.style.display = 'none';
 
 function loadQuiz(quizType) {
     const quizContainer = document.getElementById('quiz-container');
     const quizTitle = document.getElementById('quizTitle');
+    quizContainer.style.display = 'flex';
     quizContainer.innerHTML = '';
+   
+    
     
     // Hide the quiz title when a quiz is loaded
        quizTitle.style.display = 'none';
@@ -68,6 +76,7 @@ function startTimer() {
         }, 1000);
         timerStarted = true;
     }
+   
 }
 
 function updateScoreDisplay() {
@@ -732,7 +741,8 @@ Once finished, simply enter your name and submit to conclude the exercise. Enjoy
     <button id="thirty" class="btn" type="submit">Submit</button>
 </form>   `;
 }
- // JavaScript quiz///
+ 
+// JavaScript quiz///
 function generateJavaScriptQuiz() {
     return `
     <h1>JavaScript Quiz</h1>
@@ -956,7 +966,8 @@ function generateJavaScriptQuiz() {
             <form id="myForm26" onsubmit="checkj26(); return false" autocomplete="off">
                 <h2>Task 26</h2>
                 <p>Given the JavaScript code</p>
-                    <code>let div = document.createElement('div');</code><p> complete the next line to append the 'div' element to the document's body.</p>
+                <code>let div = document.createElement('div');</code>
+                <p> complete the next line to append the 'div' element to the document's body.</p>
                 <input type="text" id="qj26"><br>
                 <button id="twenty-six" class="btn" type="submit">Submit</button>
             </form>
@@ -981,7 +992,7 @@ function generateJavaScriptQuiz() {
             <!-- Question 29 - Removing DOM Elements Simplified -->
         <form id="myForm29" onsubmit="checkj29(); return false" autocomplete="off">
             <h2>Task 29</h2>
-            <p>Complete the JavaScript line to remove an element with the ID 'toRemove' from the document. Start with: <code>document.getElementById('toRemove').</code></p>
+            <p>Complete the JS line to remove an element with ID 'toRemove' from the document. Start with: <code>document.getElementById('toRemove').</code></p>
             <input type="text" id="qj29" placeholder="___;"><br>
             <button id="twenty-nine" class="btn" type="submit">Submit</button>
         </form>
