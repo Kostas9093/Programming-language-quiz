@@ -86,7 +86,7 @@ a {
     max-width: 100px;
     cursor: pointer;
     transition: background 2s;
-    background-color: rgb(6, 26, 90);
+    background-color: rgb(33, 71, 112);
 }
 
 .quiz-options img:hover {
