@@ -60,7 +60,7 @@ h2, h3 {
 
 p, li {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw;
+    font-size: small;
     color: #ffffff;
     flex-wrap: wrap;
 }
