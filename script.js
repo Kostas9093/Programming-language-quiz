@@ -30,6 +30,27 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
+
+function submitScore(){
+    if (score > 25 && score <= 30) { 
+        alert(`Fantastic Job!!!! Your score was ${score}!!!!`);
+    } else if (score > 20 && score <= 25) { 
+        alert(`Amazing Job!!!! Your score was ${score}. Keep it up!`);
+    } else if (score > 15 && score <= 20) { 
+        alert(`Good Job!!!! Your score was ${score}. Keep practicing`);
+    } else if (score >= 10 && score <= 15) { 
+        alert(`Your score was ${score}. You will need some more practice.`);
+    } else if (score >= 1 && score < 10) { 
+        alert(`Your score was ${score}. You will need some refreshment.`);
+    } else if (score === 0) { 
+        alert("Your score was 0. You will need some study.");
+    } else {
+        alert("You need to complete the question!");
+    }
+}
+
+
+
 function loadQuiz(quizType) {
     const quizContainer = document.getElementById('quiz-container');
     const quizTitle = document.getElementById('quizTitle');
@@ -67,9 +88,11 @@ function loadQuiz(quizType) {
     // Reset score and timer
     score = 0;
     timerInSeconds = 0;
+    updateScoreDisplay()
 
      // Start the timer
      startTimer();
+    
 }
 
 
@@ -99,16 +122,19 @@ function formatTime(seconds) {
     return `${minutes < 10 ? '0' : ''}${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
 }
 
+
 function resetToQuizLoadScreen() {
     const quizContainer = document.getElementById('quiz-container');
     const quizTitle = document.getElementById('quizTitle');
-    const back = document.getElementById('back');
-    const scoreDisplay = document.getElementById('floating-score');
-    const timerDisplay = document.getElementById('timer-display');
+    const backButton = document.getElementById('back');
+   
+    
 
     // Hide the quiz container and back button
     quizContainer.style.display = 'none';
-    back.style.display = 'none';
+    backButton.style.display = 'none';
+   
+    
     hideScoreAndTimer()
     // Show the quiz title
     quizTitle.style.display = 'block';
@@ -118,6 +144,10 @@ function resetToQuizLoadScreen() {
     timerInSeconds = 0;
     timerStarted = false;
     clearInterval(timerInterval);
+    score = 0;
+    updateScoreDisplay()
+    
+    
 }
 
      // Html Quiz // 
@@ -767,7 +797,8 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <p>How do you add a shadow to elements in CSS?</p>
     <input type="text" id="q30"><br>
     <button id="thirty" class="btn" type="submit">Submit</button>
-</form>   `;
+</form>   
+<button class="submit" onclick="submitScore()">Submit </button>`;
 }
  
 // JavaScript quiz///
@@ -1033,6 +1064,7 @@ function generateJavaScriptQuiz() {
             <input type="text" id="qj30"><br>
             <button id="thirty" class="btn" type="submit">Submit</button>
         </form>
+        <button class="submit" onclick="submitScore()">Submit </button>
     `;
 }
 
@@ -1914,6 +1946,7 @@ function generatePythonQuiz(){
             <input type="text" id="qp30"><br>
             <button id="thirty" class="btn" type="submit">Submit</button> 
         </form>
+        <button class="submit" onclick="submitScore()">Submit </button>
 
 
     `;
