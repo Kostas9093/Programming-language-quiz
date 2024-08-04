@@ -35,7 +35,7 @@ h1, h2, h3, p, a, li, code, .error {
 
 code {
     color: green;
-    font-size: 1px;
+    font-size: 2vw;
     margin-bottom: 3%;
     text-align: center;
     justify-content: center;
