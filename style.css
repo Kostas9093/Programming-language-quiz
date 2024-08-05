@@ -71,9 +71,9 @@ p, li {
     flex-wrap: wrap;
 }
 
- li {
+/* li {
     font-size: 0.4em;
-} 
+} */
 
 a {
     color: #006eff;
@@ -127,7 +127,7 @@ input[type="text"], input[name="Name"], input[name="Score"], input[name="Time"],
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font-size: 8vw;
+    font-size: 10vw;
     width: auto;
 }
 
@@ -226,7 +226,7 @@ form , .form1{
 
     input[type="text"] {
         width: 100%;
-        font-size: 8vw;
+        font-size: 10vw;
     }
 
     h2, h3, p, a, li {
@@ -235,6 +235,6 @@ form , .form1{
     }
 
     li {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
