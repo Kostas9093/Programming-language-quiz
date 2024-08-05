@@ -59,7 +59,7 @@ h1 {
 
 h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vw;
+    font-size: 10vw;
     color: #d0ff00;
     text-shadow: #ffffff;
 }
@@ -70,10 +70,6 @@ p, li {
     color: #ffffff;
     flex-wrap: wrap;
 }
-
-/* li {
-    font-size: 0.4em;
-} */
 
 a {
     color: #006eff;
@@ -127,7 +123,7 @@ input[type="text"], input[name="Name"], input[name="Score"], input[name="Time"],
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font-size: 10vw;
+    font-size: 6vw;
     width: auto;
 }
 
