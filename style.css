@@ -25,13 +25,19 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, p, a, li, code, .error {
+h1, h2, h3, p, a, li, code {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+.error{
+  
+    font-size: 4vw;
+}
+
+
 
 code {
     color: green;
@@ -223,7 +229,7 @@ form , .form1{
         font-size: 10vw;
     }
 
-    h2, h3, p, a, li, .error {
+    h2, h3, p, a, li {
         font-size: 10vw;
         font-weight:bold ;
     }
