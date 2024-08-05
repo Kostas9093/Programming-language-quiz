@@ -35,7 +35,7 @@ h1, h2, h3, p, a, li, code, .error {
 
 code {
     color: green;
-    font-size: 2vw;
+    font-size: 5vw;
     margin-bottom: 3%;
     text-align: center;
     justify-content: center;
@@ -217,10 +217,11 @@ form , .form1{
 
     input[type="text"] {
         width: 100%;
+        font-size: 8vw;
     }
 
-    h1, h2, h3, p, a, li, code, .error {
-        font-size: 3vw;
+    h1, h2, h3, p, a, li, .error {
+        font-size: 10vw;
         font-weight:bold ;
     }
 
