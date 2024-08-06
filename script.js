@@ -1109,7 +1109,7 @@ function checkj3() {
 }
 
 function checkj4() {
-    let answer = document.getElementById('qj4').value.trim().toLowerCase();
+    let answer = document.getElementById('qj4').value.trim();
     if (answer === 'alert("Hello World");') {
         alert('Correct!');
         score++;
@@ -1135,7 +1135,7 @@ function checkj5() {
 }
 
 function checkj6() {
-    let answer = document.getElementById('qj6').value.trim().toLowerCase();
+    let answer = document.getElementById('qj6').value.trim();
     if (answer === 'myFunction();') {
         alert('Correct!');
         score++;
