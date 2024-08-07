@@ -11,9 +11,13 @@
     <button id="back"  style="display: none;">Back</button>
     <div class="container">
             <div class="quiz-options">
-            <img class="borderglow" id="html" src="htm.png" onclick="loadQuiz('html-css')">
-            <img class="borderglow" id="js" src="js.png"onclick="loadQuiz('javascript')">
-            <img class="borderglow" id="py" src="python.png"onclick="loadQuiz('python')">
+                 <div class="ring">
+                    <i style="--clr:#00ff0a;"></i>
+                    <i style="--clr:#ff0057;"></i>
+                    <i style="--clr:#fffd44;"></i> 
+            <img id="html" src="htm.png" onclick="loadQuiz('html-css')">
+            <img id="js" src="js.png"onclick="loadQuiz('javascript')">
+            <img id="py" src="python.png"onclick="loadQuiz('python')">
         </div>
          <!-- Floating Score and Timer -->
         <div id="floating-score" style="display: none;">Score: 0</div>

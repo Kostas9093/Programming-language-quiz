@@ -1109,7 +1109,7 @@ function checkj3() {
 }
 
 function checkj4() {
-    let answer = document.getElementById('qj4').value.trim().toLowerCase();
+    let answer = document.getElementById('qj4').value.trim();
     if (answer === 'alert("Hello World");') {
         alert('Correct!');
         score++;
@@ -1135,7 +1135,7 @@ function checkj5() {
 }
 
 function checkj6() {
-    let answer = document.getElementById('qj6').value.trim().toLowerCase();
+    let answer = document.getElementById('qj6').value.trim();
     if (answer === 'myFunction();') {
         alert('Correct!');
         score++;
@@ -1200,7 +1200,7 @@ function checkj10() {
 }
 
 function checkj11() {
-    let answer = document.getElementById('qj11').value.trim().toLowerCase();
+    let answer = document.getElementById('qj11').value.trim();
     if (answer === 'console.log("Hello, console!");') {
         alert('Correct!');
         score++;
@@ -1252,7 +1252,7 @@ function checkj14() {
 }
 
 function checkj15() {
-    let answer = document.getElementById('qj15').value.trim().toLowerCase();
+    let answer = document.getElementById('qj15').value.trim();
     if (answer === 'indexOf("Banana");') {
         alert('Correct!');
         score++;
@@ -1291,8 +1291,8 @@ function checkj17() {
 }
 
 function checkj18() {
-    let answer = document.getElementById('qj18').value.trim().toLowerCase();
-    if (answer === 'Element.addEventListener("click",function)') {
+    let answer = document.getElementById('qj18').value.trim();
+    if (answer === 'Element.addEventListener("click", function)') {
         alert('Correct!');
         score++;
         updateScoreDisplay();
@@ -1304,7 +1304,7 @@ function checkj18() {
 }
 
 function checkj19() {
-    let answer = document.getElementById('qj19').value.trim().toLowerCase();
+    let answer = document.getElementById('qj19').value.trim();
     if (answer === 'document.querySelector("#demo");') {
         alert('Correct!');
         score++;
@@ -1382,7 +1382,7 @@ function checkj24() {
 }
 
 function checkj25() {
-    let answer = document.getElementById('qj25').value.trim().toLowerCase();
+    let answer = document.getElementById('qj25').value.trim();
     if (answer === 'document.querySelector(".example");') {
         alert('Correct!');
         score++;
@@ -1395,7 +1395,7 @@ function checkj25() {
 }
 
 function checkj26() {
-    let answer = document.getElementById('qj26').value.trim().toLowerCase();
+    let answer = document.getElementById('qj26').value.trim();
     if (answer === 'document.body.appendChild(div);') {
         alert('Correct!');
         score++;
@@ -1407,7 +1407,7 @@ function checkj26() {
     }
 }
 function checkj27() {
-    let answer = document.getElementById('qj27').value.trim().toLowerCase();
+    let answer = document.getElementById('qj27').value.trim();
     if (answer === 'addEventListener("click", handleClick);') {
         alert('Correct!');
         score++;
@@ -1419,7 +1419,7 @@ function checkj27() {
     }
 }
 function checkj28() {
-    let answer = document.getElementById('qj28').value.trim().toLowerCase();
+    let answer = document.getElementById('qj28').value.trim();
     if (answer === 'localStorage.setItem("greeting", "hello");') {
         alert('Correct!');
         score++;
@@ -2008,7 +2008,7 @@ function checkp4() {
 }
 
 function checkp5() {
-    let answer = document.getElementById('qp5').value.trim().toLowerCase();
+    let answer = document.getElementById('qp5').value.trim();
     if (answer === 'print("i live in england".upper());') {
         alert('Correct!');
         score++;
@@ -2293,7 +2293,7 @@ function checkp26() {
     }
 }
 function checkp27() {
-    let answer = document.getElementById('qp27').value.trim().toLowerCase();
+    let answer = document.getElementById('qp27').value.trim();
     if (answer === 'Indefinite') {
         alert('Correct!');
         score++;
