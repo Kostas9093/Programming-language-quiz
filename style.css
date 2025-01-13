@@ -11,8 +11,6 @@ body {
 }
 label{
     align-items: center;
-    align-self: center;
-    text-align: center;
 }
 /* Flex Container Setup */
 .container {
