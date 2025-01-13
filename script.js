@@ -575,7 +575,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
             <label><input type="radio" name="q1" value="high technology markup language"> High Technology Markup Language</label><br>
             <label><input type="radio" name="q1" value="hypertext markdown language"> Hypertext Markdown Language
             </label><br><label><input type="radio" name="q1" value="home tool markup language"> Home Tool Markup Language</label><br>
-            <button id="one" type="submit">Submit</button>
+            <button id="one" class="btn" type="submit">Submit</button>
         </form>
 
 <!-- Question 2 - Which HTML tag is used to define an internal stylesheet? -->
@@ -586,7 +586,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
             <label><input type="radio" name="q2" value="style"> &lt;style&gt;</label><br>
             <label><input type="radio" name="q2" value="link"> &lt;link&gt;</label><br>
             <label><input type="radio" name="q2" value="script"> &lt;script&gt;</label><br>
-            <button id="two" type="submit">Submit</button>
+            <button id="two" class="btn" type="submit">Submit</button>
         </form>
     </div>
 
@@ -597,7 +597,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
         <p>True or False: The &lt;div&gt; element is a block-level element.</p>
             <label><input type="radio" name="q3" value="false"> False</label><br>
             <label><input type="radio" name="q3" value="true"> True</label><br>
-            <button id="three" type="submit">Submit</button>
+            <button id="three" class="btn" type="submit">Submit</button>
         </form>
     </div>
 
@@ -609,7 +609,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
             <label><input type="radio" name="q4" value="h1 { background-color: red; }"> h1 { background-color: red; }</label><br>
             <label><input type="radio" name="q4" value=".h1 { background-color: red; }"> .h1 { background-color: red; }</label><br>
             <label><input type="radio" name="q4" value="h1: background-color red;"> h1: background-color red;</label><br>
-            <button id="four" type="submit">Submit</button>
+            <button id="four" class="btn" type="submit">Submit</button>
         </form>
     </div>
 
@@ -621,7 +621,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
             <label><input type="radio" name="q5" value="style"> style</label><br>
             <label><input type="radio" name="q5" value="class"> class</label><br>
             <label><input type="radio" name="q5" value="id"> id</label><br>
-            <button id="five" type="submit">Submit</button>
+            <button id="five" class="btn" type="submit">Submit</button>
         </form>
     </div>
 
@@ -634,7 +634,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q6" value="font-style"> font-style</label><br>
     <label><input type="radio" name="q6" value="font-size"> font-size</label><br>
     <label><input type="radio" name="q6" value="text-style"> text-style</label><br>
-    <button id="six" type="submit">Submit</button>
+    <button id="six" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 7 - How do you display a border like this: "1px solid black"? -->
@@ -646,7 +646,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q7" value="border-width: 1px; border-color: black;"> border-width: 1px; border-color: black;</label><br>
     <label><input type="radio" name="q7" value="border-line: 1px black;"> border-line: 1px black;</label><br>
     <label><input type="radio" name="q7" value="border: 1px solid black;"> border: 1px solid black;</label><br>
-    <button id="seven" type="submit">Submit</button>
+    <button id="seven" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 8 - Which property is used to change the font of an element? -->
@@ -658,7 +658,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q8" value="font"> font</label><br>
     <label><input type="radio" name="q8" value="text-font"> text-font</label><br>
     <label><input type="radio" name="q8" value="font-style"> font-style</label><br>
-    <button id="eight" type="submit">Submit</button>
+    <button id="eight" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 9 - How can you make a list that lists its items with squares? -->
@@ -670,7 +670,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q9" value="list-style-type: square;"> list-style-type: square;</label><br>
     <label><input type="radio" name="q9" value="list-style: square;"> list-style: square;</label><br>
     <label><input type="radio" name="q9" value="list-type: square;"> list-type: square;</label><br>
-    <button id="nine" type="submit">Submit</button>
+    <button id="nine" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 10 - How do you group selectors? -->
@@ -682,7 +682,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q10" value="Separate them with commas"> Separate them with commas</label><br>
      <label><input type="radio" name="q10" value="Separate them with spaces"> Separate them with spaces</label><br>
     <label><input type="radio" name="q10" value="Use a semicolon (;) between them"> Use a semicolon (;) between them</label><br>
-    <button id="ten" type="submit">Submit</button>
+    <button id="ten" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 11 - What is the default value of the position property? -->
@@ -694,7 +694,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q11" value="relative"> relative</label><br>
     <label><input type="radio" name="q11" value="absolute"> absolute</label><br>
     <label><input type="radio" name="q11" value="fixed"> fixed</label><br>
-    <button id="eleven" type="submit">Submit</button>
+    <button id="eleven" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 12 - How do you insert a comment in a CSS file? -->
@@ -706,7 +706,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q12" value="<!-- This is a comment -->"> -- This is a comment -- </label><br>
     <label><input type="radio" name="q12" value="# This is a comment"> # This is a comment</label><br>
     <label><input type="radio" name="q12" value="// This is a comment"> // This is a comment</label><br>
-    <button id="twelve" type="submit">Submit</button>
+    <button id="twelve" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 13 - Which property is used to change the left margin of an element? -->
@@ -718,7 +718,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q13" value="margin-left"> margin-left</label><br>
     <label><input type="radio" name="q13" value="left-margin"> left-margin</label><br>
     <label><input type="radio" name="q13" value="margin-left-side"> margin-left-side</label><br>
-    <button id="thirteen" type="submit">Submit</button>
+    <button id="thirteen" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 14 - What does CSS stand for? -->
@@ -730,7 +730,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q14" value="Creative Style Sheets"> Creative Style Sheets</label><br>
     <label><input type="radio" name="q14" value="Colorful Style Sheets"> Colorful Style Sheets</label><br>
     <label><input type="radio" name="q14" value="Cascading Style Sheets"> Cascading Style Sheets</label><br>
-     <button id="fourteen" type="submit">Submit</button>
+     <button id="fourteen" class="btn" type="submit">Submit</button>
 </form>
 
 
@@ -743,7 +743,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q15" value=".demo"> .demo</label><br>
     <label><input type="radio" name="q15" value="*demo"> *demo</label><br>
     <label><input type="radio" name="q15" value="demo"> demo</label><br>
-    <button id="fifteen" type="submit">Submit</button>
+    <button id="fifteen" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 16 - How do you make a list not display bullet points? -->
@@ -755,7 +755,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q16" value="text-decoration: none;"> text-decoration: none;</label><br>
     <label><input type="radio" name="q16" value="bullet: none;"> bullet: none;</label><br>
     <label><input type="radio" name="q16" value="style: none;"> style: none;</label><br>
-    <button id="sixteen" type="submit">Submit</button>
+    <button id="sixteen" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 17 - What is the purpose of the alt attribute in images? -->
@@ -767,7 +767,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q17" value="To provide an alternative text for the image"> To provide an alternative text for the image</label><br>
      <label><input type="radio" name="q17" value="To add a title to the image"> To add a title to the image</label><br>
     <label><input type="radio" name="q17" value="To link the image to another webpage"> To link the image to another webpage</label><br>
-    <button id="seventeen" type="submit">Submit</button>
+    <button id="seventeen" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 18 - How do you specify an HTML link that should open in a new tab/window? -->
@@ -779,7 +779,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q18" value="new='tab'"> new='tab'</label><br>
     <label><input type="radio" name="q18" value="link='_newtab'"> link='_newtab'</label><br>
     <label><input type="radio" name="q18" value="target='_blank'"> target='_blank'</label><br>
-    <button id="eighteen" type="submit">Submit</button>
+    <button id="eighteen" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 19 - How do you change the direction of flex items in a flex container? -->
@@ -791,7 +791,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q19" value="flex-direction"> flex-direction</label><br>
     <label><input type="radio" name="q19" value="justify-content"> justify-content</label><br>
     <label><input type="radio" name="q19" value="align-items"> align-items</label><br>
-    <button id="nineteen" onclick="check19()">Submit</button>
+    <button id="nineteen" class="btn" onclick="check19()">Submit</button>
 </form>
 
 <!-- Question 20 - How do you apply a CSS style for all <a> elements with the title "example"? -->
@@ -803,7 +803,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q20" value="a{'example'}"> a{'example'}</label><br>
     <label><input type="radio" name="q20" value="a[title='example']"> a[title='example']</label><br>
     <label><input type="radio" name="q20" value="a.title='example'"> a.title='example'</label><br>
-    <button id="twenty" type="submit">Submit</button>
+    <button id="twenty" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 21 - How do you select all p elements inside a div element? -->
@@ -815,7 +815,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q21" value="p div"> p div</label><br>
     <label><input type="radio" name="q21" value="div > p"> div > p</label><br>
     <label><input type="radio" name="q21" value="div + p"> div + p</label><br>
-    <button id="twenty-one" type="submit">Submit</button>
+    <button id="twenty-one" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 22 - How do you display hyperlinks without an underline? -->
@@ -827,7 +827,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q22" value="hyperlink-decoration: none;"> hyperlink-decoration: none;</label><br>
     <label><input type="radio" name="q22" value="text-style: no-underline;"> text-style: no-underline;</label><br>
     <label><input type="radio" name="q22" value="no-underline"> no-underline</label><br>
-    <button id="twenty-two" type="submit">Submit</button>
+    <button id="twenty-two" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 23 - What is the correct HTML for creating a checkbox? -->
@@ -839,7 +839,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q23" value="<input checkbox>"> &lt;input checkbox&gt;</label><br>
     <label><input type="radio" name="q23" value="<checkbox input='true'>"> &lt;checkbox input='true'&gt;</label><br>
     <label><input type="radio" name="q23" value="<input type='checkbox'>"> &lt;input type='checkbox'&gt;</label><br>
-    <button id="twenty-three" type="submit">Submit</button>
+    <button id="twenty-three" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 24 - What is the correct HTML element for playing video files? -->
@@ -851,7 +851,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q24" value="<video>"> &lt;video&gt;</label><br>
     <label><input type="radio" name="q24" value="<movie>"> &lt;movie&gt;</label><br>
     <label><input type="radio" name="q24" value="<file>"> &lt;file&gt;</label><br>
-    <button id="twenty-four" type="submit">Submit</button>
+    <button id="twenty-four" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 25 - How can you create an ordered list? -->
@@ -863,7 +863,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q25" value="<li>"> &lt;li&gt;</label><br>
     <label><input type="radio" name="q25" value="<list>"> &lt;list&gt;</label><br>
     <label><input type="radio" name="q25" value="<ol>"> &lt;ol&gt;</label><br>
-    <button id="twenty-five" type="submit">Submit</button>
+    <button id="twenty-five" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 26 - How do you group sections of content in HTML5? -->
@@ -875,7 +875,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q26" value="<div>"> &lt;div&gt;</label><br>
     <label><input type="radio" name="q26" value="<content>"> &lt;content&gt;</label><br>
     <label><input type="radio" name="q26" value="<group>"> &lt;group&gt;</label><br>
-    <button id="twenty-six" type="submit">Submit</button>
+    <button id="twenty-six" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 27 - CSS Flexbox flex-wrap -->
@@ -887,7 +887,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q27" value="flex: wrap;"> flex: wrap;</label><br>
     <label><input type="radio" name="q27" value="wrap: true;"> wrap: true;</label><br>
     <label><input type="radio" name="q27" value="line-wrap: flex;"> line-wrap: flex;</label><br>
-    <button id="twenty-seven" onclick="check27()">Submit</button>
+    <button id="twenty-seven" class="btn" onclick="check27()">Submit</button>
 </form>
 
 <!-- Question 28 - How do you make the text bold in CSS? -->
@@ -899,7 +899,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q28" value="bold: true;"> bold: true;</label><br>
     <label><input type="radio" name="q28" value="font-weight: bold;"> font-weight: bold;</label><br>
     <label><input type="radio" name="q28" value="font-style: bold;"> font-style: bold;</label><br>
-    <button id="twenty-eight" type="submit">Submit</button>
+    <button id="twenty-eight" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 29 - What HTML5 element is used for specifying a footer for a document or section? -->
@@ -911,7 +911,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q29" value="<section>"> &lt;section&gt;</label><br>
     <label><input type="radio" name="q29" value="<div>"> &lt;div&gt;</label><br>
     <label><input type="radio" name="q29" value="<footer>"> &lt;footer&gt;</label><br>
-    <button id="twenty-nine" type="submit">Submit</button>
+    <button id="twenty-nine" class="btn" type="submit">Submit</button>
 </form>
 
 <!-- Question 30 - How do you add a shadow to elements in CSS? -->
@@ -923,7 +923,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q30" value="box-shadow: 10px 10px 5px gray;"> box-shadow: 10px 10px 5px gray;</label><br>
     <label><input type="radio" name="q30" value="element-shadow: 10px 10px 5px gray;"> element-shadow: 10px 10px 5px gray;</label><br>
     <label><input type="radio" name="q30" value="style-shadow: 10px 10px 5px gray;"> style-shadow: 10px 10px 5px gray;</label><br>
-    <button id="thirty" type="submit">Submit</button>
+    <button id="thirty" class="btn" type="submit">Submit</button>
 </form>
   
 <button class="submit" onclick="submitScore()">Submit </button>`;
