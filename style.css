@@ -39,16 +39,14 @@ h1, h2, h3, p, a, li, code {
     font-size: 1vw;
 }
 
-
 code {
     color: green;
-    font-size: 2vw;
+    font-size: 3vw;
     margin-bottom: 3%;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
 }
 
 h1 {
