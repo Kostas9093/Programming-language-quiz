@@ -575,7 +575,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
             <label><input type="radio" name="q1" value="high technology markup language"> High Technology Markup Language</label><br>
             <label><input type="radio" name="q1" value="hypertext markdown language"> Hypertext Markdown Language
             </label><br><label><input type="radio" name="q1" value="home tool markup language"> Home Tool Markup Language</label><br>
-            <button id="one" class="btn" type="submit">Submit</button>
+            <button id="one" type="submit">Submit</button>
         </form>
 
 <!-- Question 2 - Which HTML tag is used to define an internal stylesheet? -->
