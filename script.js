@@ -586,7 +586,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
             <label><input type="radio" name="q2" value="style"> &lt;style&gt;</label><br>
             <label><input type="radio" name="q2" value="link"> &lt;link&gt;</label><br>
             <label><input type="radio" name="q2" value="script"> &lt;script&gt;</label><br>
-            <button class="btn" type="submit">Submit</button>
+            <button type="submit">Submit</button>
         </form>
     </div>
 
