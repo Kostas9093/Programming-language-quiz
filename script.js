@@ -396,7 +396,7 @@ function check18() {
 
 function check19() {
     let selectedAnswer = document.querySelector('input[name="19"]:checked');
-    if (selectedAnswer && selectedAnswer.value === 'flex-direction:') {
+    if (selectedAnswer && selectedAnswer.value === 'flex-direction') {
         alert('Correct!');
         score++;
         updateScoreDisplay();
@@ -409,7 +409,7 @@ function check19() {
 
 function check20() {
     let selectedAnswer = document.querySelector('input[name="q20"]:checked');
-    if (selectedAnswer && selectedAnswer.value === 'a[title="example"]') {
+    if (selectedAnswer && selectedAnswer.value === 'a.[title="example"]') {
         alert('Correct!');
         score++;
         updateScoreDisplay();
