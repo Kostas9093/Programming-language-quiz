@@ -448,7 +448,7 @@ function check22() {
 
 function check23() {
     let selectedAnswer = document.querySelector('input[name="q23"]:checked');
-        if (selectedAnswer && selectedAnswer.value === '<input type="checkbox">') {
+        if (selectedAnswer && selectedAnswer.value === '<input type='checkbox'>') {
         alert('Correct!');
         score++;
         updateScoreDisplay();
