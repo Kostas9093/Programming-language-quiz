@@ -84,7 +84,7 @@ a {
 }
 
 .quiz-options img {
-    width: 15vw;
+    width: 30vw;
     max-width: auto;
     cursor: pointer;
     transition: background 2s;
