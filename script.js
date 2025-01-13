@@ -448,7 +448,7 @@ function check22() {
 
 function check23() {
     let selectedAnswer = document.querySelector('input[name="q23"]:checked');
-        if (selectedAnswer && selectedAnswer.value === '<input type='checkbox'>') {
+        if (selectedAnswer && selectedAnswer.value === '<input type="checkbox">') {
         alert('Correct!');
         score++;
         updateScoreDisplay();
@@ -838,7 +838,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <label><input type="radio" name="q23" value="<checkbox>"> &lt;checkbox&gt;</label><br>
     <label><input type="radio" name="q23" value="<input checkbox>"> &lt;input checkbox&gt;</label><br>
     <label><input type="radio" name="q23" value="<checkbox input='true'>"> &lt;checkbox input='true'&gt;</label><br>
-    <label><input type="radio" name="q23" value="<input type='checkbox'>"> &lt;input type='checkbox'&gt;</label><br>
+    <label><input type="radio" name="q23" value="<input type="checkbox">"> &lt;input type='checkbox'&gt;</label><br>
     <button id="twenty-three" class="btn" type="submit">Submit</button>
 </form>
 
