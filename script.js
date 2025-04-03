@@ -571,6 +571,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
     <form id="myForm1" onsubmit="check1(); return false">
         <h2>Task 1</h2>
         <p>What does HTML stand for?</p>
+            </br>
             <label><input type="radio" name="q1" value="hypertext markup language"> Hypertext Markup Language </label><br>
             <label><input type="radio" name="q1" value="high technology markup language"> High Technology Markup Language</label><br>
             <label><input type="radio" name="q1" value="hypertext markdown language"> Hypertext Markdown Language
@@ -583,6 +584,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
       <form id="myForm2" onsubmit="check2(); return false">
         <h2>Task 2</h2>
         <p>Which HTML tag is used to define an internal stylesheet?</p>
+        </br>
             <label><input type="radio" name="q2" value="style"> &lt;style&gt;</label><br>
             <label><input type="radio" name="q2" value="link"> &lt;link&gt;</label><br>
             <label><input type="radio" name="q2" value="script"> &lt;script&gt;</label><br>
@@ -595,6 +597,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
          <form id="myForm3" onsubmit="check3(); return false">
         <h2>Task 3</h2>
         <p>True or False: The &lt;div&gt; element is a block-level element.</p>
+        </br>
             <label><input type="radio" name="q3" value="false"> False</label><br>
             <label><input type="radio" name="q3" value="true"> True</label><br>
             <button id="three" class="btn" type="submit">Submit</button>
@@ -606,6 +609,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
       <form id="myForm4" onsubmit="check4(); return false">
         <h2>Task 4</h2>
         <p>How do you add a background color for all &lt;h1&gt; elements?</p>
+        </br>
             <label><input type="radio" name="q4" value="h1 { background-color: red; }"> h1 { background-color: red; }</label><br>
             <label><input type="radio" name="q4" value=".h1 { background-color: red; }"> .h1 { background-color: red; }</label><br>
             <label><input type="radio" name="q4" value="h1: background-color red;"> h1: background-color red;</label><br>
@@ -618,6 +622,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
             <form id="myForm5" onsubmit="check5(); return false">
         <h2>Task 5</h2>
         <p>Which HTML attribute is used to define inline styles?</p>
+        </br>
             <label><input type="radio" name="q5" value="style"> style</label><br>
             <label><input type="radio" name="q5" value="class"> class</label><br>
             <label><input type="radio" name="q5" value="id"> id</label><br>
@@ -630,6 +635,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm6" onsubmit="check6(); return false">
     <h2>Task 6</h2>
     <p>Which CSS property controls the text size?</p>
+    </br>
     <label><input type="radio" name="q6" value="text-size"> text-size</label><br>
     <label><input type="radio" name="q6" value="font-style"> font-style</label><br>
     <label><input type="radio" name="q6" value="font-size"> font-size</label><br>
@@ -642,6 +648,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm7" onsubmit="check7(); return false">
     <h2>Task 7</h2>
     <p>How do you display a border like this: "1px solid black"?</p>
+    </br>
     <label><input type="radio" name="q7" value="border-style: 1px black solid;"> border-style: 1px black solid;</label><br>
     <label><input type="radio" name="q7" value="border-width: 1px; border-color: black;"> border-width: 1px; border-color: black;</label><br>
     <label><input type="radio" name="q7" value="border-line: 1px black;"> border-line: 1px black;</label><br>
@@ -654,6 +661,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm8" onsubmit="check8(); return false">
     <h2>Task 8</h2>
     <p>Which property is used to change the font of an element?</p>
+    </br>
     <label><input type="radio" name="q8" value="font-family"> font-family</label><br>
     <label><input type="radio" name="q8" value="font"> font</label><br>
     <label><input type="radio" name="q8" value="text-font"> text-font</label><br>
@@ -666,6 +674,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm9" onsubmit="check9(); return false">
     <h2>Task 9</h2>
     <p>How can you make a list that lists its items with squares?</p>
+    </br>
     <label><input type="radio" name="q9" value="list: square;"> list: square;</label><br>
     <label><input type="radio" name="q9" value="list-style-type: square;"> list-style-type: square;</label><br>
     <label><input type="radio" name="q9" value="list-style: square;"> list-style: square;</label><br>
@@ -678,6 +687,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm10" onsubmit="check10(); return false">
     <h2>Task 10</h2>
     <p>How do you group selectors?</p>
+    </br>
     <label><input type="radio" name="q10" value="Use a plus (+) sign between them"> Use a plus (+) sign between them</label><br>
     <label><input type="radio" name="q10" value="Separate them with commas"> Separate them with commas</label><br>
      <label><input type="radio" name="q10" value="Separate them with spaces"> Separate them with spaces</label><br>
@@ -690,6 +700,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm11" onsubmit="check11(); return false">
     <h2>Task 11</h2>
     <p>What is the default value of the position property?</p>
+    </br>
     <label><input type="radio" name="q11" value="static"> static</label><br>
     <label><input type="radio" name="q11" value="relative"> relative</label><br>
     <label><input type="radio" name="q11" value="absolute"> absolute</label><br>
@@ -702,6 +713,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm12" onsubmit="check12(); return false">
     <h2>Task 12</h2>
     <p>How do you insert a comment in a CSS file?</p>
+    </br>
     <label><input type="radio" name="q12" value="/* This is a comment */"> /* This is a comment */</label><br>
     <label><input type="radio" name="q12" value="<!-- This is a comment -->"> -- This is a comment -- </label><br>
     <label><input type="radio" name="q12" value="# This is a comment"> # This is a comment</label><br>
@@ -714,6 +726,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm13" onsubmit="check13(); return false">
     <h2>Task 13</h2>
     <p>Which property is used to change the left margin of an element?</p>
+    </br>
     <label><input type="radio" name="q13" value="padding-left"> padding-left</label><br>
     <label><input type="radio" name="q13" value="margin-left"> margin-left</label><br>
     <label><input type="radio" name="q13" value="left-margin"> left-margin</label><br>
@@ -726,6 +739,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm14" onsubmit="check14(); return false">
     <h2>Task 14</h2>
     <p>What does CSS stand for?</p>
+    </br>
     <label><input type="radio" name="q14" value="Computer Style Sheets"> Computer Style Sheets</label><br>
     <label><input type="radio" name="q14" value="Creative Style Sheets"> Creative Style Sheets</label><br>
     <label><input type="radio" name="q14" value="Colorful Style Sheets"> Colorful Style Sheets</label><br>
@@ -739,6 +753,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm15" onsubmit="check15(); return false">
     <h2>Task 15</h2>
     <p>How do you select an element with id "demo"?</p>
+    </br>
     <label><input type="radio" name="q15" value="#demo"> #demo</label><br>
     <label><input type="radio" name="q15" value=".demo"> .demo</label><br>
     <label><input type="radio" name="q15" value="*demo"> *demo</label><br>
@@ -751,6 +766,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm16" onsubmit="check16(); return false">
     <h2>Task 16</h2>
     <p>How do you make a list not display bullet points?</p>
+    </br>
     <label><input type="radio" name="q16" value="list-style: none;"> list-style: none;</label><br>
     <label><input type="radio" name="q16" value="text-decoration: none;"> text-decoration: none;</label><br>
     <label><input type="radio" name="q16" value="bullet: none;"> bullet: none;</label><br>
@@ -763,6 +779,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm17" onsubmit="check17(); return false">
     <h2>Task 17</h2>
     <p>What is the purpose of the alt attribute in images?</p>
+    </br>
     <label><input type="radio" name="q17" value="To style the image"> To style the image</label><br>
     <label><input type="radio" name="q17" value="To provide an alternative text for the image"> To provide an alternative text for the image</label><br>
      <label><input type="radio" name="q17" value="To add a title to the image"> To add a title to the image</label><br>
@@ -775,6 +792,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm18" onsubmit="check18(); return false">
     <h2>Task 18</h2>
     <p>How do you specify an HTML link that should open in a new tab/window?</p>
+    </br>
     <label><input type="radio" name="q18" value="open='_newtab'"> open='_newtab'</label><br>
     <label><input type="radio" name="q18" value="new='tab'"> new='tab'</label><br>
     <label><input type="radio" name="q18" value="link='_newtab'"> link='_newtab'</label><br>
@@ -787,6 +805,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm19" onsubmit="return false">
     <h2>Task 19</h2>
     <p>How do you change the direction of flex items in a flex container?</p>
+    </br>
     <label><input type="radio" name="q19" value="flex-wrap"> flex-wrap</label><br>
     <label><input type="radio" name="q19" value="flex-direction"> flex-direction</label><br>
     <label><input type="radio" name="q19" value="justify-content"> justify-content</label><br>
@@ -799,6 +818,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm20" onsubmit="check20(); return false">
     <h2>Task 20</h2>
     <p>How do you apply a CSS style for all &lt;a&gt; elements with the title "example"?</p>
+    </br>
     <label><input type="radio" name="q20" value="a.title=example"> a.title=example</label><br>
     <label><input type="radio" name="q20" value="a{'example'}"> a{'example'}</label><br>
     <label><input type="radio" name="q20" value="a[title='example']"> a[title='example']</label><br>
@@ -811,6 +831,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm21" onsubmit="check21(); return false">
     <h2>Task 21</h2>
     <p>How do you select all &lt;p&gt; elements inside a &lt;div&gt; element?</p>
+    </br>
     <label><input type="radio" name="q21" value="div p"> div p</label><br>
     <label><input type="radio" name="q21" value="p div"> p div</label><br>
     <label><input type="radio" name="q21" value="div > p"> div > p</label><br>
@@ -823,6 +844,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm22" onsubmit="check22(); return false">
     <h2>Task 22</h2>
     <p>How do you display hyperlinks without an underline?</p>
+    </br>
     <label><input type="radio" name="q22" value="text-decoration: none;"> text-decoration: none;</label><br>
     <label><input type="radio" name="q22" value="hyperlink-decoration: none;"> hyperlink-decoration: none;</label><br>
     <label><input type="radio" name="q22" value="text-style: no-underline;"> text-style: no-underline;</label><br>
@@ -835,6 +857,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm23" onsubmit="check23(); return false">
     <h2>Task 23</h2>
     <p>What is the correct HTML for creating a checkbox?</p>
+    </br>
     <label><input type="radio" name="q23" value="<checkbox>"> &lt;checkbox&gt;</label><br>
     <label><input type="radio" name="q23" value="<input checkbox>"> &lt;input checkbox&gt;</label><br>
     <label><input type="radio" name="q23" value="<checkbox input='true'>"> &lt;checkbox input='true'&gt;</label><br>
@@ -847,6 +870,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm24" onsubmit="check24(); return false">
     <h2>Task 24</h2>
     <p>What is the correct HTML element for playing video files?</p>
+    </br>
     <label><input type="radio" name="q24" value="<media>"> &lt;media&gt;</label><br>
     <label><input type="radio" name="q24" value="<video>"> &lt;video&gt;</label><br>
     <label><input type="radio" name="q24" value="<movie>"> &lt;movie&gt;</label><br>
@@ -859,6 +883,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm25" onsubmit="check25(); return false">
     <h2>Task 25</h2>
     <p>How can you create an ordered list?</p>
+    </br>
     <label><input type="radio" name="q25" value="<ul>"> &lt;ul&gt;</label><br>
     <label><input type="radio" name="q25" value="<li>"> &lt;li&gt;</label><br>
     <label><input type="radio" name="q25" value="<list>"> &lt;list&gt;</label><br>
@@ -871,6 +896,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm26" onsubmit="check26(); return false">
     <h2>Task 26</h2>
     <p>How do you group sections of content in HTML5?</p>
+    </br>
     <label><input type="radio" name="q26" value="<section>"> &lt;section&gt;</label><br>
     <label><input type="radio" name="q26" value="<div>"> &lt;div&gt;</label><br>
     <label><input type="radio" name="q26" value="<content>"> &lt;content&gt;</label><br>
@@ -883,6 +909,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm27" onsubmit="return false">
     <h2>Task 27</h2>
     <p>How do you make flex items wrap onto multiple lines if needed in a flex container?</p>
+    </br>
     <label><input type="radio" name="q27" value="flex-wrap: wrap;"> flex-wrap: wrap;</label><br>
     <label><input type="radio" name="q27" value="flex: wrap;"> flex: wrap;</label><br>
     <label><input type="radio" name="q27" value="wrap: true;"> wrap: true;</label><br>
@@ -895,6 +922,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm28" onsubmit="check28(); return false">
     <h2>Task 28</h2>
     <p>How do you make the text bold in CSS?</p>
+    </br>
     <label><input type="radio" name="q28" value="text-bold: true;"> text-bold: true;</label><br>
     <label><input type="radio" name="q28" value="bold: true;"> bold: true;</label><br>
     <label><input type="radio" name="q28" value="font-weight: bold;"> font-weight: bold;</label><br>
@@ -907,6 +935,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm29" onsubmit="check29(); return false">
     <h2>Task 29</h2>
     <p>What HTML5 element is used for specifying a footer for a document or section?</p>
+    </br>
     <label><input type="radio" name="q29" value="<bottom>"> &lt;bottom&gt;</label><br>
     <label><input type="radio" name="q29" value="<section>"> &lt;section&gt;</label><br>
     <label><input type="radio" name="q29" value="<div>"> &lt;div&gt;</label><br>
@@ -919,6 +948,7 @@ This quiz comes without the stress of grades. It's an outstanding chance to prac
 <form id="myForm30" onsubmit="check30(); return false">
     <h2>Task 30</h2>
     <p>How do you add a shadow to elements in CSS?</p>
+    </br>
     <label><input type="radio" name="q30" value="shadow: 10px 10px 5px gray;"> shadow: 10px 10px 5px gray;</label><br>
     <label><input type="radio" name="q30" value="box-shadow: 10px 10px 5px gray;"> box-shadow: 10px 10px 5px gray;</label><br>
     <label><input type="radio" name="q30" value="element-shadow: 10px 10px 5px gray;"> element-shadow: 10px 10px 5px gray;</label><br>
@@ -943,6 +973,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm1" onsubmit="checkj1(); return false">
     <h2>Task 1</h2>
     <p>Inside which HTML element do we put the JavaScript?</p>
+    </br>
    <label><input type="radio" name="qj1" value="a"> a) &lt;script&gt;</label><br>
     <label><input type="radio" name="qj1" value="b"> b) &lt;js&gt;</label><br>
     <label><input type="radio" name="qj1" value="c"> c) &lt;javascript&gt;</label><br>
@@ -956,6 +987,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm2" onsubmit="checkj2(); return false">
     <h2>Task 2</h2>
     <p>Where is the correct place to insert a JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj2" value="a"> a) The &lt;body&gt; section</label><br>
     <label><input type="radio" name="qj2" value="b"> b) The &lt;head&gt; section</label><br>
     <label><input type="radio" name="qj2" value="c"> c) Both a and b are correct</label><br>
@@ -967,6 +999,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm3" onsubmit="checkj3(); return false">
     <h2>Task 3</h2>
     <p>How do you link to an external JavaScript file?</p>
+    </br>
     <label><input type="radio" name="qj3" value="a"> a) &lt;script src="xxx.js"&gt;&lt;/script&gt;</label><br>
     <label><input type="radio" name="qj3" value="b"> b) &lt;link href="xxx.js"&gt;</label><br>
     <label><input type="radio" name="qj3" value="c"> c) &lt;script link="xxx.js"&gt;&lt;/script&gt;</label><br>
@@ -979,6 +1012,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm4" onsubmit="checkj4(); return false">
     <h2>Task 4</h2>
     <p>How do you write "Hello World" in an alert box?</p>
+    </br>
     <label><input type="radio" name="qj4" value="a"> a) alertBox("Hello World");</label><br>
     <label><input type="radio" name="qj4" value="b"> b) msgBox("Hello World");</label><br>
     <label><input type="radio" name="qj4" value="c"> c) alert("Hello World");</label><br>
@@ -991,6 +1025,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm5" onsubmit="checkj5(); return false">
     <h2>Task 5</h2>
     <p>How do you create a function in JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj5" value="a"> a) function:myFunction()</label><br>
    <label> <input type="radio" name="qj5" value="b"> b) function myFunction()</label><br>
     <label><input type="radio" name="qj5" value="c"> c) createFunction myFunction()</label><br>
@@ -1003,6 +1038,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm6" onsubmit="checkj6(); return false">
     <h2>Task 6</h2>
     <p>How do you call a function named "myFunction"?</p>
+    </br>
     <label><input type="radio" name="qj6" value="a"> a) call myFunction()</label><br>
     <label><input type="radio" name="qj6" value="b"> b) call function myFunction()</label><br>
     <label><input type="radio" name="qj6" value="c"> c) myFunction()</label><br>
@@ -1015,6 +1051,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm7" onsubmit="checkj7(); return false">
     <h2>Task 7</h2>
     <p>What is the correct syntax for referring to an external script called "xxx.js"?</p>
+    </br>
     <label><input type="radio" name="qj7" value="a"> a) &lt;script src="xxx.js"&gt;</label><br>
    <label> <input type="radio" name="qj7" value="b"> b) &lt;script href="xxx.js"&gt;</label><br>
     <label><input type="radio" name="qj7" value="c"> c) &lt;script name="xxx.js"&gt;</label><br>
@@ -1027,6 +1064,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm8" onsubmit="checkj8(); return false">
     <h2>Task 8</h2>
     <p>How do you write a comment in JavaScript?</p>
+    </br>
    <label> <input type="radio" name="qj8" value="a"> a) &lt;!-- comment --&gt;</label><br>
     <label><input type="radio" name="qj8" value="b"> b) // comment</label><br>
     <label><input type="radio" name="qj8" value="c"> c) /* comment */</label><br>
@@ -1039,6 +1077,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm9" onsubmit="checkj9(); return false">
     <h2>Task 9</h2>
     <p>How do you declare a JavaScript variable?</p>
+    </br>
     <label><input type="radio" name="qj9" value="a"> a) var myVar;</label><br>
     <label><input type="radio" name="qj9" value="b"> b) variable myVar;</label><br>
     <label><input type="radio" name="qj9" value="c"> c) declare myVar;</label><br>
@@ -1051,6 +1090,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm10" onsubmit="checkj10(); return false">
     <h2>Task 10</h2>
     <p>Which of the following is the correct way to write a string in JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj10" value="a"> a) "Hello World"</label><br>
     <label><input type="radio" name="qj10" value="b"> b) 'Hello World'</label><br>
     <label><input type="radio" name="qj10" value="c"> c) Both a and b</label><br>
@@ -1063,6 +1103,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm11" onsubmit="checkj11(); return false">
     <h2>Task 11</h2>
     <p>How do you create an array in JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj11" value="a"> a) var arr = "1, 2, 3";</label><br>
     <label><input type="radio" name="qj11" value="b"> b) var arr = [1, 2, 3];</label><br>
     <label><input type="radio" name="qj11" value="c"> c) var arr = (1, 2, 3);</label><br>
@@ -1075,6 +1116,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm12" onsubmit="checkj12(); return false">
     <h2>Task 12</h2>
     <p>How do you create an object in JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj12" value="a"> a) var obj = {}; </label><br>
     <label><input type="radio" name="qj12" value="b"> b) var obj = (); </label><br>
     <label><input type="radio" name="qj12" value="c"> c) var obj = []; </label><br>
@@ -1087,6 +1129,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm13" onsubmit="checkj13(); return false">
     <h2>Task 13</h2>
     <p>How do you write a switch statement in JavaScript?</p>
+    </br>
    <label> <input type="radio" name="qj13" value="a"> a) switch (x) { case 1: break; }</label><br>
     <label><input type="radio" name="qj13" value="b"> b) switch x { case 1: break; }</label><br>
    <label> <input type="radio" name="qj13" value="c"> c) switch (x) { case 1; break;}</label><br>
@@ -1099,6 +1142,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm14" onsubmit="checkj14(); return false">
     <h2>Task 14</h2>
     <p>How do you write a while loop in JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj14" value="a"> a) while (x &lt; 5) { console.log(x); x++; }</label><br>
     <label><input type="radio" name="qj14" value="b"> b) while (x = 5) { console.log(x); x++; }</label><br>
    <label> <input type="radio" name="qj14" value="c"> c) while x &lt; 5 { console.log(x); x++; }</label><br>
@@ -1111,6 +1155,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm15" onsubmit="checkj15(); return false">
     <h2>Task 15</h2>
     <p>How do you write a for loop in JavaScript?</p>
+    </br>
    <label> <input type="radio" name="qj15" value="a"> a) for (i = 0; i &lt; 5; i++) { console.log(i); }</label><br>
     <label><input type="radio" name="qj15" value="b"> b) for i = 0 to 5 { console.log(i); }</label><br>
    <label> <input type="radio" name="qj15" value="c"> c) for (i = 0; i == 5; i++) { console.log(i); }</label><br>
@@ -1123,6 +1168,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm16" onsubmit="checkj16(); return false">
     <h2>Task 16</h2>
     <p>How do you stop a loop in JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj16" value="a"> a) break</label><br>
    <label> <input type="radio" name="qj16" value="b"> b) exit</label><br>
    <label> <input type="radio" name="qj16" value="c"> c) stop</label><br>
@@ -1135,6 +1181,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm17" onsubmit="checkj17(); return false">
     <h2>Task 17</h2>
     <p>How do you skip an iteration in a loop in JavaScript?</p>
+    </br>
    <label> <input type="radio" name="qj17" value="a"> a) continue</label><br>
    <label> <input type="radio" name="qj17" value="b"> b) skip</label><br>
     <label><input type="radio" name="qj17" value="c"> c) next</label><br>
@@ -1147,6 +1194,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm18" onsubmit="checkj18(); return false">
     <h2>Task 18</h2>
     <p>What is the result of using the typeof operator?</p>
+    </br>
    <label> <input type="radio" name="qj18" value="a"> a) It returns the type of a variable.</label><br>
    <label> <input type="radio" name="qj18" value="b"> b) It returns the value of a variable.</label><br>
     <label><input type="radio" name="qj18" value="c"> c) It returns the length of a variable.</label><br>
@@ -1159,6 +1207,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm19" onsubmit="checkj19(); return false">
     <h2>Task 19</h2>
     <p>What does NaN stand for in JavaScript?</p>
+    </br>
    <label> <input type="radio" name="qj19" value="a"> a) Not a Number</label><br>
     <label><input type="radio" name="qj19" value="b"> b) Null and Nothing</label><br>
     <label><input type="radio" name="qj19" value="c"> c) Non-available Number</label><br>
@@ -1171,6 +1220,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm20" onsubmit="checkj20(); return false">
     <h2>Task 20</h2>
     <p>What is the value of Infinity in JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj20" value="a"> a) It is a number.</label><br>
    <label> <input type="radio" name="qj20" value="b"> b) It is a string.</label><br>
     <label><input type="radio" name="qj20" value="c"> c) It is a special object.</label><br>
@@ -1183,6 +1233,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm21" onsubmit="checkj21(); return false">
     <h2>Task 21</h2>
     <p>Which of the following values is considered a Boolean in JavaScript?</p>
+    </br>
    <label> <input type="radio" name="qj21" value="a"> a) true</label><br>
     <label><input type="radio" name="qj21" value="b"> b) false</label><br>
     <label><input type="radio" name="qj21" value="c"> c) Both a and b</label><br>
@@ -1195,6 +1246,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm22" onsubmit="checkj22(); return false">
     <h2>Task 22</h2>
     <p>What does null represent in JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj22" value="a"> a) An empty string</label><br>
    <label> <input type="radio" name="qj22" value="b"> b) An empty object</label><br>
     <label><input type="radio" name="qj22" value="c"> c) A non-existent or invalid object</label><br>
@@ -1207,6 +1259,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm23" onsubmit="checkj23(); return false">
     <h2>Task 23</h2>
     <p>Which object is used for asynchronous computations in JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj23" value="a"> a) Promise</label><br>
    <label> <input type="radio" name="qj23" value="b"> b) Async</label><br>
    <label> <input type="radio" name="qj23" value="c"> c) Future</label><br>
@@ -1219,6 +1272,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm24" onsubmit="checkj24(); return false">
     <h2>Task 24</h2>
     <p>What keyword helps you to get data from a URL using JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj24" value="a"> a) fetch()</label><br>
     <label><input type="radio" name="qj24" value="b"> b) get()</label><br>
    <label> <input type="radio" name="qj24" value="c"> c) load()</label><br>
@@ -1231,6 +1285,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm25" onsubmit="checkj25(); return false">
     <h2>Task 25</h2>
     <p>How do you store a value in the browser's localStorage in JavaScript?</p>
+    </br>
    <label> <input type="radio" name="qj25" value="a"> a) localStorage.setItem('key', value);</label><br>
    <label> <input type="radio" name="qj25" value="b"> b) localStorage.save('key', value);</label><br>
     <label><input type="radio" name="qj25" value="c"> c) localStorage.store('key', value);</label><br>
@@ -1243,6 +1298,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm26" onsubmit="checkj26(); return false">
     <h2>Task 26</h2>
     <p>What is the correct syntax to create an object in JavaScript?</p>
+    </br>
    <label> <input type="radio" name="qj26" value="a"> a) var obj = {}; </label><br>
   <label>  <input type="radio" name="qj26" value="b"> b) var obj = []; </label><br>
    <label> <input type="radio" name="qj26" value="c"> c) var obj = (); </label><br>
@@ -1255,6 +1311,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm27" onsubmit="checkj27(); return false">
     <h2>Task 27</h2>
     <p>Which method is used to parse a JSON string into a JavaScript object?</p>
+    </br>
    <label> <input type="radio" name="qj27" value="a"> a) JSON.parse()</label><br>
    <label> <input type="radio" name="qj27" value="b"> b) JSON.stringify()</label><br>
    <label> <input type="radio" name="qj27" value="c"> c) JSON.object()</label><br>
@@ -1267,6 +1324,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm28" onsubmit="checkj28(); return false">
     <h2>Task 28</h2>
     <p>Which method is used to convert a JavaScript object into a JSON string?</p>
+    </br>
    <label> <input type="radio" name="qj28" value="a"> a) JSON.stringify()</label><br>
    <label> <input type="radio" name="qj28" value="b"> b) JSON.parse()</label><br>
    <label> <input type="radio" name="qj28" value="c"> c) JSON.object()</label><br>
@@ -1279,6 +1337,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm29" onsubmit="checkj29(); return false">
     <h2>Task 29</h2>
     <p>Which property returns the length of a string in JavaScript?</p>
+    </br>
     <label><input type="radio" name="qj29" value="a"> a) string.length</label><br>
     <label><input type="radio" name="qj29" value="b"> b) string.size</label><br>
    <label> <input type="radio" name="qj29" value="c"> c) string.length()</label><br>
@@ -1291,6 +1350,7 @@ function generateJavaScriptQuiz() {
 <form id="myForm30" onsubmit="checkj30(); return false">
     <h2>Task 30</h2>
     <p>Which method is used to convert a string to uppercase in JavaScript?</p>
+    </br>
    <label> <input type="radio" name="qj30" value="a"> a) string.toUpperCase()</label><br>
    <label> <input type="radio" name="qj30" value="b"> b) string.toUpper()</label><br>
    <label> <input type="radio" name="qj30" value="c"> c) string.upper()</label><br>
@@ -1771,6 +1831,7 @@ function generatePythonQuiz(){
 <form id="myForm" onsubmit="checkp1(event); return false">
     <h2>Task 1</h2> 
     <p>How would you make the terminal say Hello World?</p>
+    </br>
     <label><input type="radio" name="qp1" value="a"> print('Hello World')</label><br>
     <label><input type="radio" name="qp1" value="b"> echo 'Hello World'</label><br>
     <label><input type="radio" name="qp1" value="c"> console.log('Hello World')</label><br>
@@ -1782,6 +1843,7 @@ function generatePythonQuiz(){
 <form id="myForm2" onsubmit="checkp2(); return false">
     <h2>Task 2</h2> 
     <p>Create a variable called carname and give it a value of Volvo</p>
+    </br>
     <label><input type="radio" name="qp2" value="a"> carname = 'Volvo'</label><br>
     <label><input type="radio" name="qp2" value="b"> carName = 'Volvo'</label><br>
     <label><input type="radio" name="qp2" value="c"> Carname = 'Volvo'</label><br>
@@ -1793,6 +1855,7 @@ function generatePythonQuiz(){
 <form id="myForm3" onsubmit="checkp3(); return false">
     <h2>Task 3</h2> 
     <p>Create a variable named i and assign it a value of 50</p>
+    </br>
     <label><input type="radio" name="qp3" value="a"> i = 50</label><br>
     <label><input type="radio" name="qp3" value="b"> i = 40</label><br>
     <label><input type="radio" name="qp3" value="c"> int i = 50</label><br>
@@ -1804,6 +1867,7 @@ function generatePythonQuiz(){
 <form id="myForm4" onsubmit="checkp4(); return false">
     <h2>Task 4</h2> 
     <p>Fix this variable so it is best practice</p>
+    </br>
     <code>2my-1st_name = "john"</code>
     <label><input type="radio" name="qp4" value="a"> my_1st_name = 'john'</label><br>
     <label><input type="radio" name="qp4" value="b"> first_name = 'john'</label><br>
@@ -1816,6 +1880,7 @@ function generatePythonQuiz(){
 <form id="myForm5" onsubmit="checkp5(); return false">
     <h2>Task 5</h2> 
     <p>How would we print this string in all capitals?</p>
+    </br>
     <code>"i live in england"</code>
     <label><input type="radio" name="qp5" value="a"> string.upper()</label><br>
     <label><input type="radio" name="qp5" value="b"> print('i live in england'.upper())</label><br>
@@ -1828,6 +1893,7 @@ function generatePythonQuiz(){
 <form id="myForm6" onsubmit="checkp6(); return false">
     <h2>Task 6</h2> 
     <p>What is the result of the following code?</p>
+    </br>
     <code>
         x = 3<br>
         y = 2<br>
@@ -1844,6 +1910,7 @@ function generatePythonQuiz(){
 <form id="myForm7" onsubmit="checkp7(); return false">
     <h2>Task 7</h2> 
     <p>What does the 'len()' function do?</p>
+    </br>
     <label><input type="radio" name="qp7" value="a"> It returns the length of a string or list.</label><br>
     <label><input type="radio" name="qp7" value="b"> It returns the sum of a list.</label><br>
     <label><input type="radio" name="qp7" value="c"> It counts the occurrences of a value.</label><br>
@@ -1855,6 +1922,7 @@ function generatePythonQuiz(){
 <form id="myForm8" onsubmit="checkp8(); return false">
     <h2>Task 8</h2> 
     <p>How would you add an item to the end of a list?</p>
+    </br>
     <label><input type="radio" name="qp8" value="a"> list.append(item)</label><br>
     <label><input type="radio" name="qp8" value="b"> list.add(item)</label><br>
     <label><input type="radio" name="qp8" value="c"> list.insert(item)</label><br>
@@ -1866,6 +1934,7 @@ function generatePythonQuiz(){
 <form id="myForm9" onsubmit="checkp9(); return false">
     <h2>Task 9</h2> 
     <p>Which operator is used for exponentiation in Python?</p>
+    </br>
     <label><input type="radio" name="qp9" value="a"> **</label><br>
     <label><input type="radio" name="qp9" value="b"> ^</label><br>
     <label><input type="radio" name="qp9" value="c"> *</label><br>
@@ -1877,6 +1946,7 @@ function generatePythonQuiz(){
 <form id="myForm10" onsubmit="checkp10(); return false">
     <h2>Task 10</h2> 
     <p>How would you write a while loop in Python?</p>
+    </br>
     <label><input type="radio" name="qp10" value="a"> while condition:</label><br>
     <label><input type="radio" name="qp10" value="b"> while true:</label><br>
     <label><input type="radio" name="qp10" value="c"> while condition do:</label><br>
@@ -1888,6 +1958,7 @@ function generatePythonQuiz(){
 <form id="myForm11" onsubmit="checkp11(); return false">
     <h2>Task 11</h2> 
     <p>What would you use to remove an item from a list?</p>
+    </br>
     <label><input type="radio" name="qp11" value="a"> list.remove(item)</label><br>
     <label><input type="radio" name="qp11" value="b"> list.delete(item)</label><br>
     <label><input type="radio" name="qp11" value="c"> list.pop(item)</label><br>
@@ -1899,6 +1970,7 @@ function generatePythonQuiz(){
 <form id="myForm12" onsubmit="checkp12(); return false">
     <h2>Task 12</h2> 
     <p>How can you check if a key exists in a dictionary?</p>
+    </br>
     <label><input type="radio" name="qp12" value="a"> key in dictionary </label><br>
     <label><input type="radio" name="qp12" value="b"> key.exists(dictionary)</label><br>
     <label> <input type="radio" name="qp12" value="c"> dictionary.has(key)</label><br>
@@ -1910,6 +1982,7 @@ function generatePythonQuiz(){
 <form id="myForm13" onsubmit="checkp13(); return false">
     <h2>Task 13</h2> 
     <p>Which keyword is used to exit a loop?</p>
+    </br>
     <label><input type="radio" name="qp13" value="a"> break </label><br>
     <label><input type="radio" name="qp13" value="b"> continue</label><br>
     <label><input type="radio" name="qp13" value="c"> exit</label><br>
@@ -1921,6 +1994,7 @@ function generatePythonQuiz(){
 <form id="myForm14" onsubmit="checkp14(); return false">
     <h2>Task 14</h2> 
     <p>What is the purpose of the 'else' statement in Python?</p>
+    </br>
     <label><input type="radio" name="qp14" value="a"> It specifies a block of code that executes if the condition is false.</label><br>
     <label><input type="radio" name="qp14" value="b"> It specifies a block of code that executes if the condition is true.</label><br>
     <label><input type="radio" name="qp14" value="c"> It specifies a block of code that executes only if the loop runs.</label><br>
@@ -1932,6 +2006,7 @@ function generatePythonQuiz(){
 <form id="myForm15" onsubmit="checkp15(); return false">
     <h2>Task 15</h2> 
     <p>What is the purpose of the 'return' keyword?</p>
+    </br>
     <label><input type="radio" name="qp15" value="a"> It exits the function and optionally returns a value.</label><br>
     <label><input type="radio" name="qp15" value="b"> It defines a function.</label><br>
     <label><input type="radio" name="qp15" value="c"> It calls another function.</label><br>
@@ -1943,6 +2018,7 @@ function generatePythonQuiz(){
 <form id="myForm16" onsubmit="checkp16(); return false">
     <h2>Task 16</h2> 
     <p>What would you add to the bottom of this code to order a large latte?</p>
+    </br>
     <code>
         def coffee_order(size, drink_type): <br><br><br>
         print(f"Here’s your {size} {drink_type}.") <br>
@@ -1958,10 +2034,12 @@ function generatePythonQuiz(){
 <form id="myForm17" onsubmit="checkp17(); return false">
     <h2>Task 17</h2> 
     <p>This function isn't working, everything seems to be there but I'm getting this error</p>
+    </br>
     <p class="error">Traceback (most recent call last): File "/Users/Desktop/CodeNation/python/Exercises/tasks.py", line 23, 
         cash_machine(1234, 400) <br><br> File "/Users/Desktop/CodeNation/python/Exercises/tasks.py", line 15, in cash_machine
         if entered_pin == actual_pin and amount <= balance: <br><br> UnboundLocalError: local variable 'balance' referenced before assignment</p>
     <p>What do I need to add to make it work?</p>
+    </br>
     <code>
         actual_pin = 1234 <br>
         balance = 500 <br><br>
@@ -1976,6 +2054,7 @@ function generatePythonQuiz(){
         print("Incorrect PIN") <br><br><br>
         cash_machine(1234, 400) <br>
     </code>
+    </br>
     <label for="qp17a"><input type="radio" name="qp17" value="a"> Add balance=500</label><br>
     <label for="qp17b"><input type="radio" name="qp17" value="b"> Add balance=1000</label><br>
     <label for="qp17c"><input type="radio" name="qp17" value="c"> Add global balance=500</label><br>
@@ -1987,9 +2066,11 @@ function generatePythonQuiz(){
 <form id="myForm18" onsubmit="checkp18(); return false">
     <h2>Task 18</h2> 
     <p>Rewrite this line of code so it works</p>
+    </br>
     <code>
         fav_films == "Ghostbusters" 'Deadpool" "Titanic"]
     </code>
+    </br>
     <label for="qp18a"><input type="radio" name="qp18" value="a"> fav_films = ['Ghostbusters', 'Deadpool', 'Titanic']</label><br>
     <label for="qp18b"><input type="radio" name="qp18" value="b"> fav_films = 'Ghostbusters', 'Deadpool', 'Titanic'</label><br>
     <label for="qp18c"><input type="radio" name="qp18" value="c"> fav_films = ['Ghostbusters', 'Deadpool', 'Titanic']</label><br>
@@ -2001,6 +2082,7 @@ function generatePythonQuiz(){
 <form id="myForm19" onsubmit="checkp19(); return false">
     <h2>Task 19</h2> 
     <p>Now print the list into the terminal</p>
+    </br>
     <label for="qp19a"><input type="radio" name="qp19" value="a"> print(fav_films)</label><br>
     <label for="qp19b"><input type="radio" name="qp19" value="b"> print(fav_films[])</label><br>
     <label for="qp19c"><input type="radio" name="qp19" value="c"> print(fav_films[0])</label><br>
@@ -2012,6 +2094,7 @@ function generatePythonQuiz(){
 <form id="myForm20" onsubmit="checkp20(); return false">
     <h2>Task 20</h2> 
     <p>Now print Ghostbusters into the terminal using the list</p>
+    </br>
     <label for="qp20a"><input type="radio" name="qp20" value="a"> print(fav_films[0])</label><br>
     <label for="qp20b"><input type="radio" name="qp20" value="b"> print(fav_films[1])</label><br>
     <label for="qp20c"><input type="radio" name="qp20" value="c"> print(fav_films[2])</label><br>
@@ -2023,6 +2106,7 @@ function generatePythonQuiz(){
 <form id="myForm21" onsubmit="checkp21(); return false">
     <h2>Task 21</h2> 
     <p>What method would you use to remove the last item from your list?</p>
+    </br>
     <label for="qp21a"><input type="radio" name="qp21" value="a"> fav_films.pop()</label><br>
     <label for="qp21b"><input type="radio" name="qp21" value="b"> fav_films.remove()</label><br>
     <label for="qp21c"><input type="radio" name="qp21" value="c"> fav_films.delete()</label><br>
@@ -2034,6 +2118,7 @@ function generatePythonQuiz(){
 <form id="myForm22" onsubmit="checkp22(); return false">
     <h2>Task 22</h2> 
     <p>Using a for loop, how would you write a programme that counts from 1-10?</p>
+    </br>
     <label for="qp22a"><input type="radio" name="qp22" value="a"> for i in range(1, 11):</label><br>
     <label for="qp22b"><input type="radio" name="qp22" value="b"> for i in range(1, 10):</label><br>
     <label for="qp22c"><input type="radio" name="qp22" value="c"> for i in range(0, 11):</label><br>
@@ -2045,6 +2130,7 @@ function generatePythonQuiz(){
 <form id="myForm23" onsubmit="checkp23(); return false">
     <h2>Task 23</h2> 
     <p>Now what would you add to the code to print 1-10 in the terminal?</p>
+    </br>
     <label for="qp23a"><input type="radio" name="qp23" value="a"> print(i)</label><br>
     <label for="qp23b"><input type="radio" name="qp23" value="b"> print('hello')</label><br>
     <label for="qp23c"><input type="radio" name="qp23" value="c"> print('1 to 10')</label><br>
@@ -2056,6 +2142,7 @@ function generatePythonQuiz(){
 <form id="myForm24" onsubmit="checkp24(); return false">
     <h2>Task 24</h2> 
     <p>So taking the previous code into account, how would you count to 10 in increments of 2?</p>
+    </br>
     <label for="qp24a"><input type="radio" name="qp24" value="a"> for i in range(1, 11, 2):</label><br>
     <label for="qp24b"><input type="radio" name="qp24" value="b"> for i in range(0, 11, 2):</label><br>
     <label for="qp24c"><input type="radio" name="qp24" value="c"> for i in range(2, 10, 2):</label><br>
@@ -2067,6 +2154,7 @@ function generatePythonQuiz(){
 <form id="myForm25" onsubmit="checkp25(); return false">
     <h2>Task 25</h2> 
     <p>How would you write a programme to make the numbers count backwards?</p>
+    </br>
     <label for="qp25a"><input type="radio" name="qp25" value="a"> for i in range(10, 0, -1):</label><br>
     <label for="qp25b"><input type="radio" name="qp25" value="b"> for i in range(10, 1, -1):</label><br>
     <label for="qp25c"><input type="radio" name="qp25" value="c"> for i in range(9, 0, -1):</label><br>
@@ -2078,6 +2166,7 @@ function generatePythonQuiz(){
 <form id="myForm26" onsubmit="checkp26(); return false">
     <h2>Task 26</h2> 
     <p>Which function would you use to combine two lists into one?</p>
+    </br>
     <label for="qp26a"><input type="radio" name="qp26" value="a"> extend</label><br>
     <label for="qp26b"><input type="radio" name="qp26" value="b"> combine</label><br>
     <label for="qp26c"><input type="radio" name="qp26" value="c"> join</label><br>
@@ -2089,6 +2178,7 @@ function generatePythonQuiz(){
     <form id="myForm27" onsubmit="checkp27(); return false">
         <h2>Task 27</h2> 
         <p>How would you access the second element in a list?</p>
+        </br>
        <label><input type="radio" name="qp27" value="a"> list[1]</label><br>
        <label> <input type="radio" name="qp27" value="b"> list[2]</label><br>
        <label> <input type="radio" name="qp27" value="c"> list[3]</label><br>
@@ -2100,6 +2190,7 @@ function generatePythonQuiz(){
     <form id="myForm28" onsubmit="checkp28(); return false">
         <h2>Task 28</h2> 
         <p>Which function removes an item from a list by value?</p>
+        </br>
         <label><input type="radio" name="qp28" value="a"> list.remove(item)</label><br>
        <label> <input type="radio" name="qp28" value="b"> list.del(item)</label><br>
        <label> <input type="radio" name="qp28" value="c"> list.removeAt(item)</label><br>
@@ -2111,6 +2202,7 @@ function generatePythonQuiz(){
     <form id="myForm29" onsubmit="checkp29(); return false">
         <h2>Task 29</h2> 
         <p>How would you sort a list alphabetically?</p>
+        </br>
        <label> <input type="radio" name="qp29" value="a"> list.sort()</label><br>
        <label> <input type="radio" name="qp29" value="b"> sorted(list)</label><br>
        <label> <input type="radio" name="qp29" value="c"> list.alphabetize()</label><br>
@@ -2122,6 +2214,7 @@ function generatePythonQuiz(){
     <form id="myForm30" onsubmit="checkp30(); return false">
         <h2>Task 30</h2> 
         <p>Which method allows you to insert an element at a specific position in the list?</p>
+        </br>
         <label><input type="radio" name="qp30" value="a"> list.insert(index, item)</label><br>
        <label> <input type="radio" name="qp30" value="b"> list.add(index, item)</label><br>
        <label> <input type="radio" name="qp30" value="c"> list.insertAt(index, item)</label><br>
